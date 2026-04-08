@@ -20,11 +20,11 @@ int main(){
     int a = 5;
     PVOID h1;
     h1 = AddVectoredExceptionHandler(1,VectoredHandlerSkip );
-    printf("Before supposed reference issue");
+    printf("Before supposed reference issue\n");
     c= a +*p;
 
 
-    printf("After reference issue");
+    printf("After reference issue\n");
 
     c= a + 9;
 
